@@ -21,7 +21,7 @@ function formatAndSendTweet(event) {
     const formattedEthPrice = formattedUnits * tokenEthPrice;
     const formattedUsdPrice = formattedUnits * tokenUsdPrice;
 
-    const tweetText = `BRAiN VOMiT FLOWER ${assetName}
+    const tweetText = `BRAiN VOMiT 🌼 ${assetName}
 Purchased for ${formattedEthPrice}${ethers.constants.EtherSymbol} ($${Number(formattedUsdPrice).toFixed(2)})
 #BVGARDEN #NFT ${openseaLink}`;
 
